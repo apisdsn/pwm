@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!-- Mendefinisikan tipe dokumen sebagai HTML -->
+<html lang="en"> <!-- Mulai elemen HTML dengan bahasa Inggris -->
+  <head> <!-- Bagian kepala dokumen -->
+    <meta charset="UTF-8" /> <!-- Pengkodean karakter UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Kompatibilitas untuk Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Konfigurasi tampilan untuk perangkat mobile -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" /> <!-- Praperintah untuk koneksi awal ke domain yang ditentukan -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    /> <!-- Tautan untuk mengambil font dari Google Fonts -->
+    <link rel="manifest" href="manifest.json" /> <!-- Menautkan file manifest untuk aplikasi web -->
+    <link rel="stylesheet" href="/assets/css/style.css" /> <!-- Menautkan file CSS untuk gaya tampilan -->
+    <title>Home</title> <!-- Judul halaman -->
+  </head>
+  <body> <!-- Bagian badan dokumen -->
+    <div class="min-h-full flex-h-center" id="background_div"> <!-- Div utama dengan kelas dan ID -->
+      <input type="hidden" value="bio.link/hafizadh" id="app-url" /> <!-- Input tersembunyi dengan nilai URL -->
+      <input type="hidden" value="null" id="is-featured" /> <!-- Input tersembunyi dengan nilai null -->
+      <canvas id="bg-canvas" class="background-overlay"></canvas> <!-- Elemen canvas untuk latar belakang -->
+      <div class="mt-48 page-full-wrap relative"> <!-- Div lain dengan kelas dan atribut relatif -->
+        <input type="hidden" value="creator-page" id="page-type" /> <!-- Input tersembunyi dengan nilai creator-page -->
+        <img
+          class="display-image m-auto"
+          data-src="/assets/image/logo.png"
+          alt="Hafiz Adha Febrian"
+        /> <!-- Gambar dengan kelas dan atribut alternatif -->
+        <h2 class="page-title page-text-color page-text-font mt-16 text-center"> <!-- Judul halaman -->
+          My Social Media
+        </h2>
+        <div class="flex-both-center flex-wrap mt-24"></div> <!-- Div dengan kelas dan atribut fleksibel -->
+        <div class="page-item-wrap relative"> <!-- Div lain dengan kelas dan atribut relatif -->
+          <div class="page-item flex-both-center absolute"></div> <!-- Div lain lagi dengan kelas dan atribut fleksibel dan absolut -->
+          <a
+            target="_self"
+            class="page-item-each py-10 flex-both-center"
+            href="/assets/links/apis.html"
+            data-id="261686"
+            data-type="page_item"
+          > <!-- Tautan dengan kelas, atribut target, dan data tambahan -->
+            <img
+              class="link-each-image"
+              data-src="/assets/image/apis.jpg"
+              alt="Hafiz Adha Febrian"
+            /> <!-- Gambar untuk tautan -->
+            <span class="item-title text-center">Hafiz Adha Febrian</span> <!-- Teks untuk tautan -->
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/js/script.js"></script> <!-- Skrip JavaScript untuk interaktivitas -->
+  </body>
+</html>
